@@ -1,0 +1,5 @@
+nc 127.0.0.1 80
+POST / HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 34
+a=<param>

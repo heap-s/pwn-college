@@ -1,0 +1,7 @@
+nc 127.0.0.1 80
+
+POST / HTTP/1.1
+Content-Type: application/json
+Content-Length: <this has to be very specific>
+
+{"json": "value"}
